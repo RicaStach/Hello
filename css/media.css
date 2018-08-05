@@ -1,0 +1,8 @@
+
+/*@media all and (min-width: 768px) {
+    header{-webkit-order:1;order:1;}
+    .overlay-nav {-webkit-order:2;order:2;}
+    /*.article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}*/
+   /* .main {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:4;order:4;}
+}*/

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="CSS-Beispiel"/>
+    <meta name="keywords" content="CSS, HTML"/>
+    <meta content="initial-scale=1.0,width=device-width" name="viewport">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<div class="flex-container">
+
+    <header>
+        <a href="index.html" title="go to homepage"><img src="img/logo.png" alt="Logo" class="logo"></a>
+        <a href="index.html" title="go to homepage"><h1>Sights of Dresden.</h1></a>
+    </header>
+
+    <div class="flex-sub-container">
+
+
+        <nav class="nav nav-bg padding">
+            <ul>
+                <li><a href="old-town.html">Old Town</a>
+                    <ul>
+                        <li><a href="frauenkirche.html">Frauenkirche</a></li>
+                        <li><a href="zwinger-palace.html">Zwinger</a></li>
+                    </ul>
+                </li>
+                <li><a href="neustadt-district.html">Neustadt District</a></li>
+                <li><a href="city-region.html">City Region</a></li>
+            </ul>
+        </nav>
+
+        <main class="main">
+            <h2 id="teasertext">Contact</h2>
+            <form action="./php/contact.php">
+                <fieldset>
+
+                    <legend>Personal Information:</legend>
+
+                    <div class="col">
+                        <div>
+                            <label>First name:</label>
+                            <input class="input" type="text" required maxlength="100" placeholder=" ">
+                        </div>
+
+                        <div>
+                            <label>Last name:</label>
+                            <input class="input" type="text" name="lastname" required maxlength="100" placeholder=" ">
+
+                        </div>
+                        <div>
+                            <label>E-mail:</label>
+                            <input class="input" type="email" required name="email" maxlength="100" placeholder=" ">
+
+                        </div>
+                        <div>
+                            <label>Street:</label>
+                            <input class="input" type="text" required name="street" maxlength="100" placeholder=" ">
+                            </div>
+                        <div>
+                            <label>House number:</label>
+                            <input class="input" type="text" required name="housenumber" maxlength="100"
+                                   placeholder=" ">
+                        </div>
+                        <div>
+                            <label>Town:</label>
+                            <input class="input" type="text" required name="town" maxlength="100" placeholder=" ">
+                        </div>
+                        <div>
+                            <label>Zip code:</label>
+                            <input class="input" type="text" required name="zipcode" maxlength="5" minlength="5"
+                                   pattern="[0-9]{5}" placeholder=" ">
+                        </div>
+                        <div>
+                            <label>Country:</label>
+                            <input class="input" type="text" required name="country" maxlength="500"
+                                   placeholder=" ">
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Your Message:</legend>
+                    <textarea name="message" class="textarea requirements" maxlength="100" title="insert your message here"></textarea>
+                </fieldset>
+                <br>
+
+                <input type="submit" value="Submit" formmethod="post" formtarget="_blank">
+            </form>
+
+        </main>
+    </div>
+
+    <footer class="sticky">
+        <ul>
+            <li><a href="impressum.html" title="go to imprint">Imprint</a></li>
+            <li><a href="contact.html" title="go to contact site">Contact</a></li>
+        </ul>
+    </footer>
+
+</div>
+
+</body>
+</html>

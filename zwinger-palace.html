@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="CSS-Beispiel"/>
+    <meta name="keywords" content="CSS, HTML"/>
+    <meta content="initial-scale=1.0,width=device-width" name="viewport">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<div class="flex-container">
+
+    <header>
+        <a href="index.html" title="go to homepage"><img src="img/logo.png" alt="Logo" class="logo"></a>
+        <a href="index.html" title="go to homepage"><h1>Sights of Dresden.</h1></a>
+    </header>
+
+    <div class="flex-sub-container">
+        <nav class="nav nav-bg padding">
+            <ul>
+                <li><a href="old-town.html">Old Town</a>
+                    <ul>
+                        <li><a href="frauenkirche.html">Frauenkirche</a></li>
+                        <li id="current"><a href="zwinger-palace.html">Zwinger</a></li>
+                    </ul>
+                </li>
+                <li><a href="neustadt-district.html">Neustadt District</a></li>
+                <li><a href="city-region.html">City Region</a></li>
+            </ul>
+        </nav>
+
+        <main class="main">
+            <div id="titleimagecontainer">
+                <img id="zwinger-palace" src="./img/img_trans.gif" alt="Zwinger Palace">
+            </div>
+            <div class="teaserbox"><h2 id="teasertext">Zwinger Palace</h2>
+            </div>
+            <article class="article">
+                <h3>The orangery of the king</h3>
+                <p>Built 1710-28 by the architect Pöppelmann in cooperation with the sculptor Permoser. Originally
+                    designed as an orangery and a setting for court festivities, it was later used for exhibitions. Most
+                    perfect example of Late Baroque architecture in Germany.
+                    <br>In the Zwinger Palace are located the <a href="https://gemaeldegalerie.skd.museum/en/" title="go to site of old masters picture gallery">Old Masters Picture Gallery</a>, the Porcelain Collection and
+                    the Museum of Mathematics and Physics.</p>
+
+            </article>
+            <div class="main-box">
+                <h3>Gallery</h3>
+                <div class="showbox slideright" id="zwinger-palace-small"></div>
+                <div class="showbox slideright wide" id="zwinger-palace-small-2"></div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="sticky">
+        <ul>
+            <li><a href="impressum.html" title="go to imprint">Imprint</a></li>
+            <li><a href="contact.html" title="go to contact site">Contact</a></li>
+        </ul>
+    </footer>
+
+</div>
+
+</body>
+</html>
+    

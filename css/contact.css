@@ -1,0 +1,40 @@
+form {
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+
+form > fieldset > div > div > input[type=text]:valid,
+form > fieldset > div > div > input[type=email]:valid {
+    background: url(/img/check.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+}
+
+.input {
+    width: 100%;
+    background: url(../img/check.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+
+}
+
+form input[type=submit] {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    background: #5B8ABA;
+    color: white;
+    border: 0;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.textarea {
+    width: calc(100%);
+    min-height: 100px;
+}
